@@ -3,6 +3,9 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echo starting Prebuild Phase...
+      - cd wms-lebel-service
+      - echo Running Maven clean Install...
       - mvn clean install
       - echo Logging in to Amazon ECR...
       - aws --version
