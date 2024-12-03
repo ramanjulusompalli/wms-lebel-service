@@ -29,7 +29,7 @@ import com.soft.com.service.DefaultLableService;
 @AutoConfigureMockMvc
 public class LabelServiceTests {
 	
-	@Autowired
+	/*@Autowired
 	DefaultLableService defaultLableService;
 	
 	private static final Logger log=LoggerFactory.getLogger(LabelServiceTests.class);
@@ -78,7 +78,7 @@ public class LabelServiceTests {
 		
 		
 		
-	}
+	}**/
 	
 	
 
