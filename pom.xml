@@ -68,7 +68,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>wms-label-service</finalName>
+		<finalName>wms-lebel-service</finalName>
 	</build>
 
 </project>
