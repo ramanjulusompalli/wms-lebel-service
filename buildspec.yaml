@@ -4,6 +4,8 @@ phases:
   pre_build:
     commands:
       - echo starting Prebuild Phase...
+      - echo Debugging Directory Structiure..
+      - dir
       - cd wms-lebel-service
       - echo Running Maven clean Install...
       - mvn clean install
